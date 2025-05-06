@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+
+/*    ESTILOS CUSTOM    */
+.HeaderStyles {
+  display: flex;
+  flex-direction: row;
+  
+}

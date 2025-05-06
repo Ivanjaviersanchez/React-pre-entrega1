@@ -1,14 +1,17 @@
 import Navbar from "./Navbar"
-import Search from "./Search"
+import CartWidget from "./CartWidget"
 
 /*     COMPONENTE HIJO     */
 
 function Header() {
   return (
-    <div>
-        <Navbar/>
-        <Search/>
-    </div>
+    <>
+        <div className="HeaderStyles">
+            <Navbar/>
+            <CartWidget/>
+        </div>
+        
+    </>
   )
 }
 

@@ -1,5 +1,4 @@
 import Navbar from "./Navbar"
-import CartWidget from "./CartWidget"
 
 /*     COMPONENTE HIJO     */
 
@@ -7,10 +6,12 @@ function Header() {
   return (
     <>
         <div className="HeaderStyles">
-            <Navbar/>
-            <CartWidget/>
-        </div>
-        
+          
+          <a class="navbar-brand me-5" href="#"><img class="d-inline-block align-text-top" src="" alt="logo"/></a>
+
+          <Navbar/>
+
+        </div>  
     </>
   )
 }

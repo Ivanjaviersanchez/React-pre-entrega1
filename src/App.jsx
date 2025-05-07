@@ -1,6 +1,6 @@
-/* import { useState } from 'react' */
 import Header from './components/Header';
-import ItemListContainer from './components/ItemListContainer';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 /*     COMPONENTE PADRE     */
 
@@ -11,7 +11,8 @@ function App() {
   return (
     <>
       <Header/>
-      <ItemListContainer/>
+      <Main/>
+      <Footer/>
     </>
   )
 }

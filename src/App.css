@@ -43,6 +43,27 @@
   margin-top: 2vh;
   margin-right: 6vh;
 }
+nav {
+  width: 100%;
+  height: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: white;
+}
+.nav-item .nav-link:hover {
+      background-color: gray;
+      border-radius: 5px;
+      color: white; /* Cambia el color del texto a blanco */
+  }
+ul {
+  width: 100%;
+  height: auto;
+}
+li {
+  width: 100%;
+  height: auto;
+}
+
 
 /*    ESTILOS MAIN    */
 .MainStyles {
@@ -55,34 +76,4 @@
   height: 30vh;
 }
 
-nav {
-  width: 100%;
-  height: auto;
-  padding-left: 1em;
-  padding-right: 1em;
-  background-color: white;
 
-  .nav-item .nav-link {
-      transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave para el fondo y el color del texto */
-      border-radius: 5px;
-  }
-  .nav-item .nav-link:hover {
-      background-color: gray;
-      border-radius: 5px;
-      color: white; /* Cambia el color del texto a blanco */
-  }
-  a {
-     /*  padding-right: 5em;  */
-     padding-right: 2em;
-     padding-left: 3em;
-  }
-  
-}
-ul {
-  width: 100%;
-  height: auto;
-}
-li {
-  width: 100%;
-  height: auto;
-}

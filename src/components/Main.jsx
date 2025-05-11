@@ -7,7 +7,7 @@ function Main() {
     <>
         <div className="MainStyles">
           
-          <ItemListContainer/>
+          <ItemListContainer greeting={"Lista de articulos disponibles"}/>
 
         </div>  
     </>     

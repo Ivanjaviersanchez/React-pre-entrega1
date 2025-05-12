@@ -15,9 +15,10 @@
   flex-direction: row;
   align-items: center;  
   background-color: rgb(99, 117, 99);
+  color: rgb(198, 247, 186);
 }
 .LogoStyles {
-  width: 15vh;
+  width: 13vh;
 }
 .NavbarStyles {
   background-color: rgb(99, 117, 99);

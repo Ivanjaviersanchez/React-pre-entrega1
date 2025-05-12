@@ -7,7 +7,7 @@ function Header() {
     <>
         <div className="HeaderStyles">
           
-          <a class="navbar-brand me-5" href="#"><img class="d-inline-block align-text-top LogoStyles" src={logo} alt="logo"/>TecnoBox</a>
+          <a class="navbar-brand me-5" href="#"><img class="d-inline-block align-text-top LogoStyles" src={logo} alt="logo"/><p>TecnoBox - Soluciones Informáticas</p></a>
           
           <Navbar/>
 
